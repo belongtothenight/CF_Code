@@ -20,3 +20,5 @@ Using [drawLSystem.py](https://github.com/belongtothenight/CF_Code/blob/main/src
 It is possible to use batch script [multiRender.bat](https://github.com/belongtothenight/CF_Code/blob/main/src/hw2/multiRender.bat) to render multiple files in sequence, but it can't utilize GPU with it.
 
 [Q.blend](https://github.com/belongtothenight/CF_Code/blob/main/src/hw2/Q.blend) is the source blend file, which is saved as [Q0.blend](https://github.com/belongtothenight/CF_Code/blob/main/src/hw2/Q0.blend), [Q1.blend](https://github.com/belongtothenight/CF_Code/blob/main/src/hw2/Q1.blend), [Q2.blend](https://github.com/belongtothenight/CF_Code/blob/main/src/hw2/Q2.blend), and [Q3.blend](https://github.com/belongtothenight/CF_Code/blob/main/src/hw2/Q3.blend) for their corresponding rendering settings.
+
+However, despite with GPU compute, blender simply cannot handle the large coordinate count in Q1 and Q2. It takes longer and longer as frames count up.
