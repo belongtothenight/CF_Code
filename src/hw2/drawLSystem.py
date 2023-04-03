@@ -72,49 +72,49 @@ if __name__ == '__main__':
     # turtle.bgcolor('black')
 
     # Q0
-    # print('Processing Q0')
-    # exportPath = 'Q0.eps'
-    # W = 'F'
-    # level = maxLevel
-    # newf = 'F-F++F-F'
-    # newb = ''
-    # w = LSystem(W, level, newf, newb)
-    # width = 1920*2
-    # height = 1080*2
-    # xOffset = 0
-    # yOffset = height*(-0.5)
-    # # drawLSystem(w, 60, 10, exportPath, width, height, xOffset, yOffset)
-    # EXECUTOR.singleRun(w, 60, 10, exportPath, width, height, xOffset, yOffset)
+    print('Processing Q0')
+    exportPath = 'Q0.eps'
+    W = 'F'
+    level = maxLevel
+    newf = 'F-F++F-F'
+    newb = ''
+    w = LSystem(W, level, newf, newb)
+    width = 1920*2
+    height = 1080*2
+    xOffset = 0
+    yOffset = height*(-0.5)
+    # drawLSystem(w, 60, 10, exportPath, width, height, xOffset, yOffset)
+    EXECUTOR.singleRun(w, 60, 10, exportPath, width, height, xOffset, yOffset)
 
     # Q1
-    # print('Processing Q1')
-    # exportPath = 'Q1.eps'
-    # W = 'F+F+F+F'
-    # level = maxLevel
-    # newf = 'F+F-F-FFF+F-F'
-    # newb = ''
-    # w = LSystem(W, level, newf, newb)
-    # width = 1920*2
-    # height = 1080*2
-    # xOffset = 0
-    # yOffset = 0
-    # # drawLSystem(w, 90, 10, exportPath, width, height, xOffset, yOffset)
-    # EXECUTOR.singleRun(w, 90, 10, exportPath, width, height, xOffset, yOffset)
+    print('Processing Q1')
+    exportPath = 'Q1.eps'
+    W = 'F+F+F+F'
+    level = maxLevel
+    newf = 'F+F-F-FFF+F-F'
+    newb = ''
+    w = LSystem(W, level, newf, newb)
+    width = 1920*2
+    height = 1080*2
+    xOffset = 0
+    yOffset = 0
+    # drawLSystem(w, 90, 10, exportPath, width, height, xOffset, yOffset)
+    EXECUTOR.singleRun(w, 90, 10, exportPath, width, height, xOffset, yOffset)
 
     # Q2
-    # print('Processing Q2')
-    # exportPath = 'Q2.eps'
-    # W = 'F++F++F'
-    # level = maxLevel
-    # newf = 'F-F++F-F'
-    # newb = ''
-    # w = LSystem(W, level, newf, newb)
-    # width = int(1920*3)
-    # height = int(1080*3)
-    # xOffset = 0
-    # yOffset = -0.1*height
-    # # drawLSystem(w, 60, 10, exportPath, width, height, xOffset, yOffset)
-    # EXECUTOR.singleRun(w, 60, 10, exportPath, width, height, xOffset, yOffset)
+    print('Processing Q2')
+    exportPath = 'Q2.eps'
+    W = 'F++F++F'
+    level = maxLevel
+    newf = 'F-F++F-F'
+    newb = ''
+    w = LSystem(W, level, newf, newb)
+    width = int(1920*3)
+    height = int(1080*3)
+    xOffset = 0
+    yOffset = -0.1*height
+    # drawLSystem(w, 60, 10, exportPath, width, height, xOffset, yOffset)
+    EXECUTOR.singleRun(w, 60, 10, exportPath, width, height, xOffset, yOffset)
 
     # Q3
     print('Processing Q3')
