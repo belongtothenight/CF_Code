@@ -1,15 +1,17 @@
 import os
-os.system('cls')
 
 
 def LSystem(W='', level=0, newf='', newb=''):
     W = [*W]
     newf = [*newf]
     newb = [*newb]
+    maxLevel = level
     T = []
     n = len(W)
 
     while level > 0:
+        print(
+            f'Processing level {maxLevel-level+1} / {maxLevel} ...', end='\r')
         for i in range(n):
             if (W[i] == '+'):
                 T.append('+')
@@ -25,8 +27,8 @@ def LSystem(W='', level=0, newf='', newb=''):
         n = len(W)
 
     w = ''.join(W)
-    print(w)
-
+    # print(w)
+    print('\nProcessing done.')
     return w
 
 
@@ -40,37 +42,39 @@ def exportTxt(q=0, W='', level=0, newf='', newb='', w=''):
     f.close()
 
 
-# Q0
-W = 'F'
-level = 2
-newf = 'F-F++F-F'
-newb = ''
-w = LSystem(W, level, newf, newb)
-exportTxt(0, W, level, newf, newb, w)
-print()
+if __name__ == '__main__':
+    os.system('cls')
+    # Q0
+    W = 'F'
+    level = 2
+    newf = 'F-F++F-F'
+    newb = ''
+    w = LSystem(W, level, newf, newb)
+    exportTxt(0, W, level, newf, newb, w)
+    print()
 
-# Q1
-W = 'F+F+F+F'
-level = 2
-newf = 'F+F-F-FFF+F-F'
-newb = ''
-w = LSystem(W, level, newf, newb)
-exportTxt(1, W, level, newf, newb, w)
-print()
+    # Q1
+    W = 'F+F+F+F'
+    level = 2
+    newf = 'F+F-F-FFF+F-F'
+    newb = ''
+    w = LSystem(W, level, newf, newb)
+    exportTxt(1, W, level, newf, newb, w)
+    print()
 
-# Q2
-W = 'F++F++F'
-level = 3
-newf = 'F-F++F-F'
-newb = ''
-w = LSystem(W, level, newf, newb)
-exportTxt(2, W, level, newf, newb, w)
-print()
+    # Q2
+    W = 'F++F++F'
+    level = 3
+    newf = 'F-F++F-F'
+    newb = ''
+    w = LSystem(W, level, newf, newb)
+    exportTxt(2, W, level, newf, newb, w)
+    print()
 
-# Q3
-W = 'F'
-level = 3
-newf = 'F-F+F+F+F-F-F-F+F'
-newb = ''
-w = LSystem(W, level, newf, newb)
-exportTxt(3, W, level, newf, newb, w)
+    # Q3
+    W = 'F'
+    level = 3
+    newf = 'F-F+F+F+F-F-F-F+F'
+    newb = ''
+    w = LSystem(W, level, newf, newb)
+    exportTxt(3, W, level, newf, newb, w)
