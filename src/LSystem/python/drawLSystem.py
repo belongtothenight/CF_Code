@@ -27,7 +27,6 @@ def drawLSystem(
     drawing_width = turtle.window_width()
     drawing_height = turtle.window_height()
     turtle.screensize(drawing_width, drawing_height)
-    # t.screen.screensize(width, height)
     # t.pencolor('white')
     t.speed(0)
     t.pensize(2)
