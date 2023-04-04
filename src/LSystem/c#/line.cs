@@ -14,7 +14,9 @@ public class line : MonoBehaviour
     public static int fps = 60; // frames per second
     public float updateFrequency = 1 / fps; // how often to update the line
     private float timer;
-    public string task = "UpdateLine"; // "UpdateLine" or "DrawAllLines"
+    // public string task = "UpdateLine"; // "UpdateLine" or "DrawAllLines"
+    public enum Task { UpdateLine, DrawAllLines };
+    public Task task;
 
     // Start is called before the first frame update
     void Start()
@@ -29,9 +31,9 @@ public class line : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (task == "UpdateLine")
+        if (task.ToString() == "UpdateLine")
             UpdateLine();
-        else if (task == "DrawAllLines")
+        else if (task.ToString() == "DrawAllLines")
             DrawAllLines();
 
         // Debug.Log($"Frame: {Time.frameCount}");
