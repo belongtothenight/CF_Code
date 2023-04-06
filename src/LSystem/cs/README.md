@@ -10,7 +10,7 @@
 
 ## Steps
 
-1. Generate coordinate list stored with CSV by using [exportLSystemToCo.cs](https://github.com/belongtothenight/CF_Code/blob/main/src/LSystem/cs/exportLSystemToCo.cs)
+1. Generate coordinate list stored with CSV by using [exportLSystemToCo.py](https://github.com/belongtothenight/CF_Code/blob/main/src/LSystem/py/exportLSystemToCo.py)
 2. Create a C# script named "line" and paste [line.cs](https://github.com/belongtothenight/CF_Code/blob/main/src/LSystem/cs/line.cs) into it.
 3. Create an empty object and add a component of C# script, attaches "line" to it.
 4. Create a C# script named "camera" and paste [camera.cs](https://github.com/belongtothenight/CF_Code/blob/main/src/LSystem/cs/camera.cs) into it.
