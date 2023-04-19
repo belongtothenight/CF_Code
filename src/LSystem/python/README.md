@@ -32,10 +32,30 @@ Of the L-Systems setups in [LSystem.py](https://github.com/belongtothenight/CF_C
 3. [L-System Q2 l5 blender 0001 3073](https://www.youtube.com/watch?v=S1v0_jaVa5U)
 4. [L-System Q3 l5 blender 0001 59050 partial](https://www.youtube.com/watch?v=POXbev50OmA)
 
-| Question | Turtle-Pic                                                   | Blender-Pic                                                         |
-| -------- | :----------------------------------------------------------: | :-----------------------------------------------------------------: |
-| Q0       | <img src="pic/Q0_l5_turtle.png" alt="Q0_turtle" width="55%"> | <img src="pic/Q0_l5_blender_1025.png" alt="Q0_blender" width="100%"> |
-| Q1       | <img src="pic/Q1_l5_turtle.png" alt="Q1_turtle" width="55%"> | <img src="pic/Q1_l5_blender_131073.png" alt="Q0_blender" width="100%"> |
-| Q2       | <img src="pic/Q2_l5_turtle.png" alt="Q2_turtle" width="55%"> | <img src="pic/Q2_l5_blender_3073.png" alt="Q0_blender" width="100%"> |
-| Q3       | <img src="pic/Q3_l5_turtle.png" alt="Q3_turtle" width="55%"> | <img src="pic/Q3_l5_blender_59050.png" alt="Q0_blender" width="100%"> |
-
+<table>
+    <tr>
+        <th>Question</th>
+        <th>Turtle-Pic</th>
+        <th>Blender-Pic</th>
+    </tr>
+    <tr>
+        <td>Q0</td>
+        <td><img src="pic/Q0_l5_turtle.png" alt="Q0_turtle" width="50%"></td>
+        <td><img src="pic/Q0_l5_blender_1025.png" alt="Q0_blender" width="100%"></td>
+    </tr>
+    <tr>
+        <td>Q1</td>
+        <td><img src="pic/Q1_l5_turtle.png" alt="Q1_turtle" width="50%"></td>
+        <td><img src="pic/Q1_l5_blender_131073.png" alt="Q0_blender" width="100%"></td>
+    </tr>
+    <tr>
+        <td>Q2</td>
+        <td><img src="pic/Q2_l5_turtle.png" alt="Q2_turtle" width="50%"></td>
+        <td><img src="pic/Q2_l5_blender_3073.png" alt="Q0_blender" width="100%"></td>
+    </tr>
+    <tr>
+        <td>Q3</td>
+        <td><img src="pic/Q3_l5_turtle.png" alt="Q3_turtle" width="50%"></td>
+        <td><img src="pic/Q3_l5_blender_59050.png" alt="Q0_blender" width="100%"></td>
+    </tr>
+</table>
