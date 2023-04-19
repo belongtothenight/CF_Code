@@ -31,3 +31,10 @@ Of the L-Systems setups in [LSystem.py](https://github.com/belongtothenight/CF_C
 2. [L-System Q1 l5 blender 0001 131073 partial](https://www.youtube.com/watch?v=xImK8u8pUbk)
 3. [L-System Q2 l5 blender 0001 3073](https://www.youtube.com/watch?v=S1v0_jaVa5U)
 4. [L-System Q3 l5 blender 0001 59050 partial](https://www.youtube.com/watch?v=POXbev50OmA)
+
+| Question | Turtle-Pic                         | Blender-Pic                                 |
+| -------- | ---------------------------------- | ------------------------------------------- |
+| Q0       | ![Q0_turtle](pic/Q0_l5_turtle.png) | ![Q0_blender](pic/Q0_l5_blender_1025.png)   |
+| Q1       | ![Q1_turtle](pic/Q1_l5_turtle.png) | ![Q1_blender](pic/Q1_l5_blender_131073.png) |
+| Q2       | ![Q2_turtle](pic/Q2_l5_turtle.png) | ![Q2_blender](pic/Q2_l5_blender_3073.png)   |
+| Q3       | ![Q3_turtle](pic/Q3_l5_turtle.png) | ![Q3_blender](pic/Q3_l5_blender_59050.png)  |
