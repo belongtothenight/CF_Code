@@ -34,10 +34,8 @@ Of the L-Systems setups in [LSystem.py](https://github.com/belongtothenight/CF_C
 
 | Question | Turtle-Pic                                                   | Blender-Pic                                                         |
 | -------- | ------------------------------------------------------------ | ------------------------------------------------------------------- |
-| Q0       | <img src="pic/Q0_l5_turtle.png" alt="Q0_turtle" width="40%"> | <img src="pic/Q0_l5_blender_1025.png" alt="Q0_blender" width="80%"> |
-| Q1       | ![Q1_turtle](pic/Q1_l5_turtle.png)                           | ![Q1_blender](pic/Q1_l5_blender_131073.png)                         |
-| Q2       | ![Q2_turtle](pic/Q2_l5_turtle.png)                           | ![Q2_blender](pic/Q2_l5_blender_3073.png)                           |
-| Q3       | ![Q3_turtle](pic/Q3_l5_turtle.png)                           | ![Q3_blender](pic/Q3_l5_blender_59050.png)                          |
+| Q0       | <img src="pic/Q0_l5_turtle.png" alt="Q0_turtle" width="55%"> | <img src="pic/Q0_l5_blender_1025.png" alt="Q0_blender" width="100%"> |
+| Q1       | <img src="pic/Q1_l5_turtle.png" alt="Q1_turtle" width="55%"> | <img src="pic/Q1_l5_blender_131073.png" alt="Q0_blender" width="100%"> |
+| Q2       | <img src="pic/Q2_l5_turtle.png" alt="Q2_turtle" width="55%"> | <img src="pic/Q2_l5_blender_3073.png" alt="Q0_blender" width="100%"> |
+| Q3       | <img src="pic/Q3_l5_turtle.png" alt="Q3_turtle" width="55%"> | <img src="pic/Q3_l5_blender_59050.png" alt="Q0_blender" width="100%"> |
 
-
-<img src="pic/Q0_l5_turtle.png" alt="Q0_turtle" width="40%">
