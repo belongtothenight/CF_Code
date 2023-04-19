@@ -33,7 +33,7 @@ Of the L-Systems setups in [LSystem.py](https://github.com/belongtothenight/CF_C
 4. [L-System Q3 l5 blender 0001 59050 partial](https://www.youtube.com/watch?v=POXbev50OmA)
 
 | Question | Turtle-Pic                                                   | Blender-Pic                                                         |
-| -------- | ------------------------------------------------------------ | ------------------------------------------------------------------- |
+| -------- | :----------------------------------------------------------: | :-----------------------------------------------------------------: |
 | Q0       | <img src="pic/Q0_l5_turtle.png" alt="Q0_turtle" width="55%"> | <img src="pic/Q0_l5_blender_1025.png" alt="Q0_blender" width="100%"> |
 | Q1       | <img src="pic/Q1_l5_turtle.png" alt="Q1_turtle" width="55%"> | <img src="pic/Q1_l5_blender_131073.png" alt="Q0_blender" width="100%"> |
 | Q2       | <img src="pic/Q2_l5_turtle.png" alt="Q2_turtle" width="55%"> | <img src="pic/Q2_l5_blender_3073.png" alt="Q0_blender" width="100%"> |
