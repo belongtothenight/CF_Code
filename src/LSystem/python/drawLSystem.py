@@ -76,110 +76,110 @@ if __name__ == '__main__':
     scale = 2
     # turtle.bgcolor('black')
 
-    # # Q0
-    # print('Processing Q0')
-    # w = LSystem(
-    #     w='F',
-    #     level=maxLevel,
-    #     newf='F-F++F-F',
-    #     newb=''
-    # )
-    # EXECUTOR.singleRun(
-    #     w=w,
-    #     angleInt=0,
-    #     angleInc=60,
-    #     distance=distance,
-    #     exportPath='Q0.eps',
-    #     width=300,
-    #     height=100,
-    #     xOffset=0,
-    #     yOffset=0,
-    #     scale=scale
-    # )
+    # Q0
+    print('Processing Q0')
+    w = LSystem(
+        w='F',
+        level=maxLevel,
+        newf='F-F++F-F',
+        newb=''
+    )
+    EXECUTOR.singleRun(
+        w=w,
+        angleInt=0,
+        angleInc=60,
+        distance=distance,
+        exportPath='Q0.eps',
+        width=300,
+        height=100,
+        xOffset=0,
+        yOffset=0,
+        scale=scale
+    )
 
-    # # Q1 (2)
-    # print('Processing Q1')
-    # w = LSystem(
-    #     w='F+F+F+F',
-    #     level=maxLevel,
-    #     newf='F+F-F-FFF+F-F',
-    #     newb=''
-    # )
-    # EXECUTOR.singleRun(
-    #     w=w,
-    #     angleInt=0,
-    #     angleInc=90,
-    #     distance=distance,
-    #     exportPath='Q1.eps',
-    #     width=400,
-    #     height=450,
-    #     xOffset=400,
-    #     yOffset=100,
-    #     scale=scale
-    # )
+    # Q1 (2)
+    print('Processing Q1')
+    w = LSystem(
+        w='F+F+F+F',
+        level=maxLevel,
+        newf='F+F-F-FFF+F-F',
+        newb=''
+    )
+    EXECUTOR.singleRun(
+        w=w,
+        angleInt=0,
+        angleInc=90,
+        distance=distance,
+        exportPath='Q1.eps',
+        width=400,
+        height=450,
+        xOffset=400,
+        yOffset=100,
+        scale=scale
+    )
 
-    # # Q2 (3)
-    # print('Processing Q2')
-    # w = LSystem(
-    #     w='F++F++F',
-    #     level=maxLevel,
-    #     newf='F-F++F-F',
-    #     newb=''
-    # )
-    # EXECUTOR.singleRun(
-    #     w=w,
-    #     angleInt=0,
-    #     angleInc=60,
-    #     distance=distance,
-    #     exportPath='Q2.eps',
-    #     width=300,
-    #     height=350,
-    #     xOffset=50,
-    #     yOffset=250,
-    #     scale=scale
-    # )
+    # Q2 (3)
+    print('Processing Q2')
+    w = LSystem(
+        w='F++F++F',
+        level=maxLevel,
+        newf='F-F++F-F',
+        newb=''
+    )
+    EXECUTOR.singleRun(
+        w=w,
+        angleInt=0,
+        angleInc=60,
+        distance=distance,
+        exportPath='Q2.eps',
+        width=300,
+        height=350,
+        xOffset=50,
+        yOffset=250,
+        scale=scale
+    )
 
-    # # Q3
-    # print('Processing Q3')
-    # w = LSystem(
-    #     w='F',
-    #     level=maxLevel,
-    #     newf='F-F+F+F+F-F-F-F+F',
-    #     newb=''
-    # )
-    # EXECUTOR.singleRun(
-    #     w=w,
-    #     angleInt=0,
-    #     angleInc=90,
-    #     distance=distance,
-    #     exportPath='Q3.eps',
-    #     width=300,
-    #     height=300,
-    #     xOffset=50,
-    #     yOffset=150,
-    #     scale=scale
-    # )
+    # Q3
+    print('Processing Q3')
+    w = LSystem(
+        w='F',
+        level=maxLevel,
+        newf='F-F+F+F+F-F-F-F+F',
+        newb=''
+    )
+    EXECUTOR.singleRun(
+        w=w,
+        angleInt=0,
+        angleInc=90,
+        distance=distance,
+        exportPath='Q3.eps',
+        width=300,
+        height=300,
+        xOffset=50,
+        yOffset=150,
+        scale=scale
+    )
 
-    # # Q4 (1)
-    # print('Processing Q4')
-    # w = LSystem(
-    #     w='F+F+F+F',
-    #     level=maxLevel,
-    #     newf='F+b-F-FFF+F+b-F',
-    #     newb='bbb'
-    # )
-    # EXECUTOR.singleRun(
-    #     w=w,
-    #     angleInt=0,
-    #     angleInc=90,
-    #     distance=distance,
-    #     exportPath='Q4.eps',
-    #     width=1000,
-    #     height=1000,
-    #     xOffset=200,
-    #     yOffset=300,
-    #     scale=scale
-    # )
+    # Q4 (1)
+    print('Processing Q4')
+    w = LSystem(
+        w='F+F+F+F',
+        level=maxLevel,
+        newf='F+b-F-FFF+F+b-F',
+        newb='bbb'
+    )
+    EXECUTOR.singleRun(
+        w=w,
+        angleInt=0,
+        angleInc=90,
+        distance=distance,
+        exportPath='Q4.eps',
+        width=1000,
+        height=1000,
+        xOffset=200,
+        yOffset=300,
+        scale=scale
+    )
 
     # Q5 (4)
     print('Processing Q5')
@@ -202,23 +202,23 @@ if __name__ == '__main__':
         scale=scale
     )
 
-    # # Q6 (5)
-    # print('Processing Q6')
-    # w = LSystem(
-    #     w='F',
-    #     level=maxLevel,
-    #     newf='F-F+F+F+F-F-F-F+F',
-    #     newb=''
-    # )
-    # EXECUTOR.singleRun(
-    #     w=w,
-    #     angleInt=45,
-    #     angleInc=90,
-    #     distance=distance,
-    #     exportPath='Q6.eps',
-    #     width=300,
-    #     height=300,
-    #     xOffset=50,
-    #     yOffset=150,
-    #     scale=scale
-    # )
+    # Q6 (5)
+    print('Processing Q6')
+    w = LSystem(
+        w='F',
+        level=maxLevel,
+        newf='F-F+F+F+F-F-F-F+F',
+        newb=''
+    )
+    EXECUTOR.singleRun(
+        w=w,
+        angleInt=45,
+        angleInc=90,
+        distance=distance,
+        exportPath='Q6.eps',
+        width=300,
+        height=300,
+        xOffset=50,
+        yOffset=150,
+        scale=scale
+    )
