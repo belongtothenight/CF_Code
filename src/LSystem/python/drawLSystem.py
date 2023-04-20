@@ -45,9 +45,9 @@ def drawLSystem(
         if (w[i] == 'F'):
             t.forward(distance)
         elif (w[i] == '+'):
-            t.right(angleInc)
-        elif (w[i] == '-'):
             t.left(angleInc)
+        elif (w[i] == '-'):
+            t.right(angleInc)
         elif (w[i] == 'b'):
             t.penup()
             t.forward(distance)

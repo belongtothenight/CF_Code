@@ -45,36 +45,68 @@ def exportTxt(q=0, W='', level=0, newf='', newb='', w=''):
 if __name__ == '__main__':
     os.system('cls')
     # Q0
-    W = 'F'
-    level = 2
-    newf = 'F-F++F-F'
-    newb = ''
-    w = LSystem(W, level, newf, newb)
-    exportTxt(0, W, level, newf, newb, w)
+    w = LSystem(
+        w='F',
+        level=2,
+        newf='F-F++F-F',
+        newb=''
+    )
+    exportTxt(
+        q=0,
+        W='F',
+        level=2,
+        newf='F-F++F-F',
+        newb='',
+        w=w
+    )
     print()
 
     # Q1
-    W = 'F+F+F+F'
-    level = 2
-    newf = 'F+F-F-FFF+F-F'
-    newb = ''
-    w = LSystem(W, level, newf, newb)
-    exportTxt(1, W, level, newf, newb, w)
+    w = LSystem(
+        w='F+F+F+F',
+        level=2,
+        newf='F+F-F-FFF+F-F',
+        newb=''
+    )
+    exportTxt(
+        q=1,
+        W='F+F+F+F',
+        level=2,
+        newf='F+F-F-FFF+F-F',
+        newb='',
+        w=w
+    )
     print()
 
     # Q2
-    W = 'F++F++F'
-    level = 3
-    newf = 'F-F++F-F'
-    newb = ''
-    w = LSystem(W, level, newf, newb)
-    exportTxt(2, W, level, newf, newb, w)
+    w = LSystem(
+        w='F++F++F',
+        level=3,
+        newf='F-F++F-F',
+        newb=''
+    )
+    exportTxt(
+        q=2,
+        W='F++F++F',
+        level=3,
+        newf='F-F++F-F',
+        newb='',
+        w=w
+    )
     print()
 
     # Q3
-    W = 'F'
-    level = 3
-    newf = 'F-F+F+F+F-F-F-F+F'
-    newb = ''
-    w = LSystem(W, level, newf, newb)
-    exportTxt(3, W, level, newf, newb, w)
+    w = LSystem(
+        w='F',
+        level=3,
+        newf='F-F+F+F+F-F-F-F+F',
+        newb=''
+    )
+    exportTxt(
+        q=3,
+        W='F',
+        level=3,
+        newf='F-F+F+F+F-F-F-F+F',
+        newb='',
+        w=w
+    )

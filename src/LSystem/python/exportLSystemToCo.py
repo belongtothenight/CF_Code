@@ -29,9 +29,9 @@ def calLSystem(
             f'Drawing {i+1} / {maxLength} {(i+1)/maxLength*100:.2f}% ...', end='\r')
         if (w[i] == 'F'):
             x = coordinates[-1][0] + distance * \
-                math.sin(math.radians(angleInt))
-            z = coordinates[-1][2] + distance * \
                 math.cos(math.radians(angleInt))
+            z = coordinates[-1][2] + distance * \
+                math.sin(math.radians(angleInt))
             coordinates.append(
                 [
                     x,
@@ -45,9 +45,9 @@ def calLSystem(
             angleInt -= angleInc
         elif (w[i] == 'd'):
             x = coordinates[-1][0] + distance * \
-                math.sin(math.radians(angleInt))
-            z = coordinates[-1][2] + distance * \
                 math.cos(math.radians(angleInt))
+            z = coordinates[-1][2] + distance * \
+                math.sin(math.radians(angleInt))
             coordinates.append(
                 [
                     x,
