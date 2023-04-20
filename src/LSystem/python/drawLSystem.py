@@ -11,39 +11,44 @@ from LSystem import LSystem
 
 def drawLSystem(
         w='',
-        angle=0,
+        angleInt=90,
+        angleInc=60,
         distance=0,
         exportPath=None,
         width=1920,
         height=1080,
         xOffset=0,
-        yOffset=0):
+        yOffset=0,
+        scale=2):
+    from turtle import Screen, Turtle
     import turtle
-    import tkinter
     w = [*w]
+    width = width*(1+0.1*scale)
+    height = height*(1+0.1*scale)
     maxLength = len(w)
-    t = turtle.Turtle()
-    turtle.setup(width, height)
-    drawing_width = turtle.window_width()
-    drawing_height = turtle.window_height()
-    turtle.screensize(drawing_width, drawing_height)
+    t = Turtle()
+    screen = Screen()
+    screen.setup(width=width, height=height)
+    screen.setworldcoordinates(-1, -1, screen.window_width() -
+                               1, screen.window_height() - 1)
     # t.pencolor('white')
     t.speed(0)
-    t.pensize(2)
+    t.pensize(1*scale)
     t.hideturtle()
     t.penup()
     t.goto(xOffset, yOffset)
     t.pendown()
+    t.left(angleInt)
     for i in range(len(w)):
         print(
             f'Drawing {i+1} / {maxLength} {(i+1)/maxLength*100:.2f}% ...', end='\r')
         if (w[i] == 'F'):
             t.forward(distance)
         elif (w[i] == '+'):
-            t.right(angle)
+            t.right(angleInc)
         elif (w[i] == '-'):
-            t.left(angle)
-        elif (w[i] == 'd'):
+            t.left(angleInc)
+        elif (w[i] == 'b'):
             t.penup()
             t.forward(distance)
             t.pendown()
@@ -52,80 +57,168 @@ def drawLSystem(
         canvas.postscript(file=exportPath, width=width, height=height)
         img = Image.open(exportPath)
         img.save(exportPath[:-4]+'.png')
-    # turtle.done()
     turtle.bye()
     print('\nDrawing done.\n')
 
 
 class EXECUTOR():
-    def singleRun(w, angle, distance, exportPath, width, height, xOffset, yOffset):
+    def singleRun(w, angleInt, angleInc, distance, exportPath, width, height, xOffset, yOffset, scale):
         p = mp.Process(target=drawLSystem, args=(
-            w, angle, distance, exportPath, width, height, xOffset, yOffset))
+            w, angleInt, angleInc, distance, exportPath, width, height, xOffset, yOffset, scale))
         p.start()
         p.join()
 
 
 if __name__ == '__main__':
-    os.system('cls')
-    maxLevel = 5
+    # os.system('cls')
+    maxLevel = 3
+    distance = 10
+    scale = 2
     # turtle.bgcolor('black')
 
-    # Q0
-    print('Processing Q0')
-    exportPath = 'Q0.eps'
-    W = 'F'
-    level = maxLevel
-    newf = 'F-F++F-F'
-    newb = ''
-    w = LSystem(W, level, newf, newb)
-    width = 1920*2
-    height = 1080*2
-    xOffset = 0
-    yOffset = height*(-0.5)
-    # drawLSystem(w, 60, 10, exportPath, width, height, xOffset, yOffset)
-    EXECUTOR.singleRun(w, 60, 10, exportPath, width, height, xOffset, yOffset)
+    # # Q0
+    # print('Processing Q0')
+    # w = LSystem(
+    #     w='F',
+    #     level=maxLevel,
+    #     newf='F-F++F-F',
+    #     newb=''
+    # )
+    # EXECUTOR.singleRun(
+    #     w=w,
+    #     angleInt=0,
+    #     angleInc=60,
+    #     distance=distance,
+    #     exportPath='Q0.eps',
+    #     width=300,
+    #     height=100,
+    #     xOffset=0,
+    #     yOffset=0,
+    #     scale=scale
+    # )
 
-    # Q1
-    print('Processing Q1')
-    exportPath = 'Q1.eps'
-    W = 'F+F+F+F'
-    level = maxLevel
-    newf = 'F+F-F-FFF+F-F'
-    newb = ''
-    w = LSystem(W, level, newf, newb)
-    width = 1920*2
-    height = 1080*2
-    xOffset = 0
-    yOffset = 0
-    # drawLSystem(w, 90, 10, exportPath, width, height, xOffset, yOffset)
-    EXECUTOR.singleRun(w, 90, 10, exportPath, width, height, xOffset, yOffset)
+    # # Q1 (2)
+    # print('Processing Q1')
+    # w = LSystem(
+    #     w='F+F+F+F',
+    #     level=maxLevel,
+    #     newf='F+F-F-FFF+F-F',
+    #     newb=''
+    # )
+    # EXECUTOR.singleRun(
+    #     w=w,
+    #     angleInt=0,
+    #     angleInc=90,
+    #     distance=distance,
+    #     exportPath='Q1.eps',
+    #     width=400,
+    #     height=450,
+    #     xOffset=400,
+    #     yOffset=100,
+    #     scale=scale
+    # )
 
-    # Q2
-    print('Processing Q2')
-    exportPath = 'Q2.eps'
-    W = 'F++F++F'
-    level = maxLevel
-    newf = 'F-F++F-F'
-    newb = ''
-    w = LSystem(W, level, newf, newb)
-    width = int(1920*3)
-    height = int(1080*3)
-    xOffset = 0
-    yOffset = -0.1*height
-    # drawLSystem(w, 60, 10, exportPath, width, height, xOffset, yOffset)
-    EXECUTOR.singleRun(w, 60, 10, exportPath, width, height, xOffset, yOffset)
+    # # Q2 (3)
+    # print('Processing Q2')
+    # w = LSystem(
+    #     w='F++F++F',
+    #     level=maxLevel,
+    #     newf='F-F++F-F',
+    #     newb=''
+    # )
+    # EXECUTOR.singleRun(
+    #     w=w,
+    #     angleInt=0,
+    #     angleInc=60,
+    #     distance=distance,
+    #     exportPath='Q2.eps',
+    #     width=300,
+    #     height=350,
+    #     xOffset=50,
+    #     yOffset=250,
+    #     scale=scale
+    # )
 
-    # Q3
-    print('Processing Q3')
-    exportPath = 'Q3.eps'
-    W = 'F'
-    level = maxLevel
-    newf = 'F-F+F+F+F-F-F-F+F'
-    newb = ''
-    w = LSystem(W, level, newf, newb)
-    width = int(1920*3)
-    height = int(1080*3)
-    xOffset = 0
-    yOffset = -0.3*height
-    # drawLSystem(w, 90, 10, exportPath, width, height, xOffset, yOffset)
-    EXECUTOR.singleRun(w, 90, 10, exportPath, width, height, xOffset, yOffset)
+    # # Q3
+    # print('Processing Q3')
+    # w = LSystem(
+    #     w='F',
+    #     level=maxLevel,
+    #     newf='F-F+F+F+F-F-F-F+F',
+    #     newb=''
+    # )
+    # EXECUTOR.singleRun(
+    #     w=w,
+    #     angleInt=0,
+    #     angleInc=90,
+    #     distance=distance,
+    #     exportPath='Q3.eps',
+    #     width=300,
+    #     height=300,
+    #     xOffset=50,
+    #     yOffset=150,
+    #     scale=scale
+    # )
+
+    # # Q4 (1)
+    # print('Processing Q4')
+    # w = LSystem(
+    #     w='F+F+F+F',
+    #     level=maxLevel,
+    #     newf='F+b-F-FFF+F+b-F',
+    #     newb='bbb'
+    # )
+    # EXECUTOR.singleRun(
+    #     w=w,
+    #     angleInt=0,
+    #     angleInc=90,
+    #     distance=distance,
+    #     exportPath='Q4.eps',
+    #     width=1000,
+    #     height=1000,
+    #     xOffset=200,
+    #     yOffset=300,
+    #     scale=scale
+    # )
+
+    # Q5 (4)
+    print('Processing Q5')
+    w = LSystem(
+        w='F-F-F-F',
+        level=maxLevel,
+        newf='F-b+F-F-F-Fb-F+b-F+F+F+Fb+FF',
+        newb='bbbb'
+    )
+    EXECUTOR.singleRun(
+        w=w,
+        angleInt=0,
+        angleInc=90,
+        distance=distance,
+        exportPath='Q5.eps',
+        width=1300,
+        height=1300,
+        xOffset=500,
+        yOffset=-50,
+        scale=scale
+    )
+
+    # # Q6 (5)
+    # print('Processing Q6')
+    # w = LSystem(
+    #     w='F',
+    #     level=maxLevel,
+    #     newf='F-F+F+F+F-F-F-F+F',
+    #     newb=''
+    # )
+    # EXECUTOR.singleRun(
+    #     w=w,
+    #     angleInt=45,
+    #     angleInc=90,
+    #     distance=distance,
+    #     exportPath='Q6.eps',
+    #     width=300,
+    #     height=300,
+    #     xOffset=50,
+    #     yOffset=150,
+    #     scale=scale
+    # )

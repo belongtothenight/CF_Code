@@ -14,6 +14,7 @@ public class camera : MonoBehaviour
         cam.clearFlags = CameraClearFlags.SolidColor;
         cam.backgroundColor = black;
         cam.orthographicSize = camSize;
+        cam.rect = new Rect(0, 0, 16, 9); // not tested yet
     }
 
     // Update is called once per frame

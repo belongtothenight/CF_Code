@@ -1,32 +1,32 @@
 import os
 
 
-def LSystem(W='', level=0, newf='', newb=''):
-    W = [*W]
+def LSystem(w='', level=0, newf='', newb=''):
+    w = [*w]
     newf = [*newf]
     newb = [*newb]
     maxLevel = level
     T = []
-    n = len(W)
+    n = len(w)
 
     while level > 0:
         print(
             f'Processing level {maxLevel-level+1} / {maxLevel} ...', end='\r')
         for i in range(n):
-            if (W[i] == '+'):
+            if (w[i] == '+'):
                 T.append('+')
-            elif (W[i] == '-'):
+            elif (w[i] == '-'):
                 T.append('-')
-            elif (W[i] == 'F'):
+            elif (w[i] == 'F'):
                 T += (newf)
-            elif (W[i] == 'b'):
+            elif (w[i] == 'b'):
                 T += (newb)
-        W = T
+        w = T
         T = []
         level -= 1
-        n = len(W)
+        n = len(w)
 
-    w = ''.join(W)
+    w = ''.join(w)
     # print(w)
     print('\nProcessing done.')
     return w
