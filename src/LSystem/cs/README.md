@@ -8,6 +8,7 @@
 4. Set up VScode as IDE. <https://www.youtube.com/watch?v=1saf4ahn-ek&pp=ygUMdW5pdHkgdnNjb2Rl>
 5. In "Window/Package Manager", install "Recorder".
 
+Entire setup process in video is available at <https://www.youtube.com/watch?v=exSkbJKT_7w>.
 ## Steps
 
 1. Generate coordinate list stored with CSV by using [exportLSystemToCo.py](https://github.com/belongtothenight/CF_Code/blob/main/src/LSystem/python/exportLSystemToCo.py)
