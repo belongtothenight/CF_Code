@@ -32,7 +32,7 @@ def drawLSystem(
     screen.setworldcoordinates(-1, -1, screen.window_width() -
                                1, screen.window_height() - 1)
     # t.pencolor('white')
-    t.speed(0)
+    t.speed(9)
     t.pensize(1*scale)
     t.hideturtle()
     t.penup()
@@ -71,7 +71,7 @@ class EXECUTOR():
 
 if __name__ == '__main__':
     # os.system('cls')
-    maxLevel = 3
+    maxLevel = 1
     distance = 10
     scale = 2
     # turtle.bgcolor('black')

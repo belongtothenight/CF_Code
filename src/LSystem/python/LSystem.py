@@ -40,6 +40,7 @@ def exportTxt(q=0, W='', level=0, newf='', newb='', w=''):
     f.write('newb = '+newb+'\n')
     f.write('w = '+w+'\n')
     f.close()
+    print()
 
 
 if __name__ == '__main__':
@@ -59,7 +60,6 @@ if __name__ == '__main__':
         newb='',
         w=w
     )
-    print()
 
     # Q1
     w = LSystem(
@@ -76,7 +76,6 @@ if __name__ == '__main__':
         newb='',
         w=w
     )
-    print()
 
     # Q2
     w = LSystem(
@@ -93,7 +92,6 @@ if __name__ == '__main__':
         newb='',
         w=w
     )
-    print()
 
     # Q3
     w = LSystem(

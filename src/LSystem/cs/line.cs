@@ -28,10 +28,13 @@ public class line : MonoBehaviour
     public int currentPositionIndex = 0; // index of the current position in the array
     public List<Vector2> positions = new List<Vector2>(); // array of positions to follow
     public List<int> dIndex = new List<int>(); // array of positions to follow
+    public List<float> widthList = new List<float>(); // array of positions to follow
     public static bool lineFullyDrawn = false;
     public static int fps = 60; // frames per second
     private float timer;
-
+    private List<List<Vector2>> lineCoordinateList = new List<List<Vector2>>();
+    private List<LineRenderer> lineRendererList = new List<LineRenderer>();
+    private int numLines = 3;
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +45,11 @@ public class line : MonoBehaviour
         GenerateCoordinate();
         OffsetAllCoordinate();
         ScaleAllCoordinate();
-        SetLineRendererSettings();
+        SplitLineCoordinate();
+        if (task.ToString() == "UpdateLine")
+        {
+            SetLineRendererSettings();
+        }
         Debug.Log("Start Done");
     }
 
@@ -50,7 +57,9 @@ public class line : MonoBehaviour
     void Update()
     {
         if (task.ToString() == "UpdateLine")
+        {
             UpdateLine();
+        }
         else if (task.ToString() == "DrawAllLines")
             DrawAllLines();
 
@@ -118,7 +127,7 @@ public class line : MonoBehaviour
             w_char = w_list.ToArray();
             level--;
         }
-        Debug.Log($"w_char: {new string(w_char)}");
+        // Debug.Log($"w_char: {new string(w_char)}");
         w_full = new string(w_char);
         Debug.Log($"w_full: {w_full}");
         Debug.Log($"L-system Done");
@@ -131,6 +140,7 @@ public class line : MonoBehaviour
         float angle = angleInt;
         Vector2 currentPos = new Vector2(0, 0);
         Vector2 nextPos = new Vector2(0, 0);
+        positions.Add(currentPos);
         for (int i = 0; i < w_full_char.Length; i++)
         {
             if (w_full_char[i] == '+')
@@ -149,12 +159,20 @@ public class line : MonoBehaviour
             }
             else if (w_full_char[i] == 'b')
             {
-                nextPos = new Vector2(currentPos.x - segmentLength * Mathf.Cos(angle * Mathf.Deg2Rad), currentPos.y - segmentLength * Mathf.Sin(angle * Mathf.Deg2Rad));
+                nextPos = new Vector2(currentPos.x + segmentLength * Mathf.Cos(angle * Mathf.Deg2Rad), currentPos.y + segmentLength * Mathf.Sin(angle * Mathf.Deg2Rad));
                 positions.Add(nextPos);
                 currentPos = nextPos;
-                dIndex.Add(i);
+                dIndex.Add(positions.Count - 1);
             }
         }
+        string dIndexString = "";
+        foreach (int index in dIndex)
+        {
+            dIndexString += index.ToString() + ", ";
+            // dIndexString += index.ToString();
+        }
+        Debug.Log($"DIndex: {dIndexString}");
+        Debug.Log($"DIndex count: {dIndex.Count}");
         Debug.Log($"Coordinates count: {positions.Count}");
         Debug.Log($"GenerateCoordinates Done");
     }
@@ -221,6 +239,45 @@ public class line : MonoBehaviour
         bottomMost *= scaleFactor;
     }
 
+    void SplitLineCoordinate()
+    {
+        // split the line into multiple lines and stores in lineCoordinateList
+        List<Vector2> tempCoorList = new List<Vector2>();
+        for (int i = 0; i < positions.Count; i++)
+        {
+            if (dIndex.Contains(i))
+            {
+                if (tempCoorList.Count >= 0)
+                {
+                    lineCoordinateList.Add(tempCoorList);
+                    tempCoorList = new List<Vector2>();
+                }
+                tempCoorList = new List<Vector2>();
+                if (dIndex.Contains(i) && dIndex.Contains(i + 1)) { }
+                else
+                {
+                    tempCoorList.Add(positions[i]);
+                }
+            }
+            else
+            {
+                tempCoorList.Add(positions[i]);
+            }
+        }
+        if (tempCoorList.Count > 0)
+        {
+            lineCoordinateList.Add(tempCoorList);
+        }
+        lineCoordinateList[lineCoordinateList.Count - 1].Add(positions[positions.Count - 1]);
+
+        // print out the number of lines
+        Debug.Log($"Number of lines: {lineCoordinateList.Count}");
+        for (int i = 0; i < lineCoordinateList.Count; i++)
+        {
+            Debug.Log($"Line {i + 1} has {lineCoordinateList[i].Count} coordinates");
+        }
+    }
+
     void SetLineRendererSettings()
     {
         // get the LineRenderer component and set its settings
@@ -236,8 +293,7 @@ public class line : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
-            // update the line every updateFrequency seconds to prevent weird artifacts
-            float updateFrequency = 1 / fps; // how often to update the line
+            float updateFrequency = 1 / fps;
             if (currentPositionIndex < positions.Count)
             {
                 lineRenderer.SetPosition(currentPositionIndex, positions[currentPositionIndex]);
@@ -247,28 +303,33 @@ public class line : MonoBehaviour
             {
                 lineFullyDrawn = true;
             }
-            timer = updateFrequency;
         }
     }
 
     void DrawAllLines()
     {
-        for (int i = 0; i < positions.Count; i++)
+        if (lineFullyDrawn)
         {
-            if (dIndex.Contains(i))
+            return;
+        }
+        else
+        {
+            numLines = lineCoordinateList.Count;
+            for (int i = 0; i < numLines; i++)
             {
-                Material mat = lineRenderer.material;
-                Color color = mat.color;
-                color.a = 0f;
-                mat.SetColor("_Color", color);
-                lineRenderer.SetPosition(i, positions[i]);
-                color.a = 1f;
-                mat.SetColor("_Color", color);
+                GameObject lineObject = new GameObject("Line " + i);
+                LineRenderer line = lineObject.AddComponent<LineRenderer>();
+                line.startWidth = lineWidth;
+                line.endWidth = lineWidth;
+                line.material = new Material(Shader.Find("Sprites/Default"));
+                line.positionCount = lineCoordinateList[i].Count;
+                for (int j = 0; j < lineCoordinateList[i].Count; j++)
+                {
+                    line.SetPosition(j, lineCoordinateList[i][j]);
+                }
+                lineRendererList.Add(line);
             }
-            else
-            {
-                lineRenderer.SetPosition(i, positions[i]);
-            }
+            lineFullyDrawn = true;
         }
     }
 }
