@@ -268,7 +268,6 @@ public class line : MonoBehaviour
         {
             lineCoordinateList.Add(tempCoorList);
         }
-        lineCoordinateList[lineCoordinateList.Count - 1].Add(positions[positions.Count - 1]);
 
         // print out the number of lines
         Debug.Log($"Number of lines: {lineCoordinateList.Count}");
