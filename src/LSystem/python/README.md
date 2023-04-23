@@ -32,6 +32,7 @@ Of the L-Systems setups in [LSystem.py](https://github.com/belongtothenight/CF_C
 3. [L-System Q2 l5 blender 0001 3073](https://www.youtube.com/watch?v=S1v0_jaVa5U)
 4. [L-System Q3 l5 blender 0001 59050 partial](https://www.youtube.com/watch?v=POXbev50OmA)
 
+<details open><summary>Click to see drawn LSystems</summary>
 <table>
     <tr>
         <th>Question</th>
@@ -82,3 +83,4 @@ Of the L-Systems setups in [LSystem.py](https://github.com/belongtothenight/CF_C
         <td width="3%"></td>
     </tr>
 </table>
+</details>
