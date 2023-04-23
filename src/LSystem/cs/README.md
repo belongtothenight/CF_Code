@@ -29,3 +29,72 @@ Of the L-Systems setups in [LSystem.py](https://github.com/belongtothenight/CF_C
 2. [L-System Q1 l5 unity](https://www.youtube.com/watch?v=HrRso8d2wXs)
 3. [L-System Q2 l5 unity](https://www.youtube.com/watch?v=z62aBnNVySA)
 4. [L-System Q3 l5 unity](https://www.youtube.com/watch?v=JSeMYMtlbO8)
+
+<details open><summary>Click to see drawn LSystems</summary>
+<table>
+    <tr>
+        <th>Question</th>
+        <th>Level 1</th>
+        <th>Level 2</th>
+        <th>Level 3</th>
+        <th>Level 4</th>
+        <th>Level 5</th>
+    </tr>
+    <tr>
+        <td>Q0</td>
+        <td width="20%"><img src="pic/Q0_1.png"></td>
+        <td width="20%"><img src="pic/Q0_2.png"></td>
+        <td width="20%"><img src="pic/Q0_3.png"></td>
+        <td width="20%"><img src="pic/Q0_4.png"></td>
+        <td width="20%"><img src="pic/Q0_5.png"></td>
+    </tr>
+    <tr>
+        <td>Q1 (2)</td>
+        <td width="20%"><img src="pic/Q1_1.png"></td>
+        <td width="20%"><img src="pic/Q1_2.png"></td>
+        <td width="20%"><img src="pic/Q1_3.png"></td>
+        <td width="20%"><img src="pic/Q1_4.png"></td>
+        <td width="20%"><img src="pic/Q1_5.png"></td>
+    </tr>
+    <tr>
+        <td>Q2 (3)</td>
+        <td width="20%"><img src="pic/Q2_1.png"></td>
+        <td width="20%"><img src="pic/Q2_2.png"></td>
+        <td width="20%"><img src="pic/Q2_3.png"></td>
+        <td width="20%"><img src="pic/Q2_4.png"></td>
+        <td width="20%"><img src="pic/Q2_5.png"></td>
+    </tr>
+    <tr>
+        <td>Q3</td>
+        <td width="20%"><img src="pic/Q3_1.png"></td>
+        <td width="20%"><img src="pic/Q3_2.png"></td>
+        <td width="20%"><img src="pic/Q3_3.png"></td>
+        <td width="20%"><img src="pic/Q3_4.png"></td>
+        <td width="20%"><img src="pic/Q3_5.png"></td>
+    </tr>
+    <tr>
+        <td>Q4 (1)</td>
+        <td width="20%"><img src="pic/Q4_1.png"></td>
+        <td width="20%"><img src="pic/Q4_2.png"></td>
+        <td width="20%"><img src="pic/Q4_3.png"></td>
+        <td width="20%"><img src="pic/Q4_4.png"></td>
+        <td width="20%"><img src="pic/Q4_5.png"></td>
+    </tr>
+    <tr>
+        <td>Q5 (4)</td>
+        <td width="20%"><img src="pic/Q5_1.png"></td>
+        <td width="20%"><img src="pic/Q5_2.png"></td>
+        <td width="20%"><img src="pic/Q5_3.png"></td>
+        <td width="20%"><img src="pic/Q5_4.png"></td>
+        <!-- <td width="20%"><img src="pic/Q5_5.png"></td> -->
+    </tr>
+    <tr>
+        <td>Q6 (5)</td>
+        <td width="20%"><img src="pic/Q6_1.png"></td>
+        <td width="20%"><img src="pic/Q6_2.png"></td>
+        <td width="20%"><img src="pic/Q6_3.png"></td>
+        <td width="20%"><img src="pic/Q6_4.png"></td>
+        <td width="20%"><img src="pic/Q6_5.png"></td>
+    </tr>
+</table>
+</details>
