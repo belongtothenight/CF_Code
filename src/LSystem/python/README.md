@@ -41,44 +41,44 @@ Of the L-Systems setups in [LSystem.py](https://github.com/belongtothenight/CF_C
     </tr>
     <tr>
         <td>Q0</td>
-        <td width="50%"><img src="pic/Q0_l5_turtle.png"></td>
-        <td width="50%"><img src="pic/Q0.png"></td>
-        <td width="100%"><img src="pic/Q0_l5_blender_1025.png"></td>
+        <td width="33%"><img src="pic/Q0_l5_turtle.png"></td>
+        <td width="33%"><img src="pic/Q0.png"></td>
+        <td width="33%"><img src="pic/Q0_l5_blender_1025.png"></td>
     </tr>
     <tr>
         <td>Q1 (2)</td>
-        <td width="50%"><img src="pic/Q1_l5_turtle.png"></td>
-        <td width="50%"><img src="pic/Q1.png"></td>
-        <td width="100%"><img src="pic/Q1_l5_blender_131073.png"></td>
+        <td width="33%"><img src="pic/Q1_l5_turtle.png"></td>
+        <td width="33%"><img src="pic/Q1.png"></td>
+        <td width="33%"><img src="pic/Q1_l5_blender_131073.png"></td>
     </tr>
     <tr>
         <td>Q2 (3)</td>
-        <td width="50%"><img src="pic/Q2_l5_turtle.png" alt="Q2_turtle"></td>
-        <td width="50%"><img src="pic/Q2.png"></td>
-        <td width="100%"><img src="pic/Q2_l5_blender_3073.png"></td>
+        <td width="33%"><img src="pic/Q2_l5_turtle.png" alt="Q2_turtle"></td>
+        <td width="33%"><img src="pic/Q2.png"></td>
+        <td width="33%"><img src="pic/Q2_l5_blender_3073.png"></td>
     </tr>
     <tr>
         <td>Q3</td>
-        <td width="50%"><img src="pic/Q3_l5_turtle.png"></td>
-        <td width="50%"><img src="pic/Q3.png"></td>
-        <td width="100%"><img src="pic/Q3_l5_blender_59050.png"></td>
+        <td width="33%"><img src="pic/Q3_l5_turtle.png"></td>
+        <td width="33%"><img src="pic/Q3.png"></td>
+        <td width="33%"><img src="pic/Q3_l5_blender_59050.png"></td>
     </tr>
     <tr>
         <td>Q4 (1)</td>
-        <td width="50%"></td>
-        <td width="50%"><img src="pic/Q4.png"></td>
-        <td width="100%"></td>
+        <td width="33%"></td>
+        <td width="33%"><img src="pic/Q4.png"></td>
+        <td width="33%"></td>
     </tr>
     <tr>
         <td>Q5 (4)</td>
-        <td width="50%"></td>
-        <td width="50%"><img src="pic/Q5.png"></td>
-        <td width="100%"></td>
+        <td width="33%"></td>
+        <td width="33%"><img src="pic/Q5.png"></td>
+        <td width="33%"></td>
     </tr>
     <tr>
         <td>Q6 (5)</td>
-        <td width="50%"></td>
-        <td width="50%"><img src="pic/Q6.png"></td>
-        <td width="100%"></td>
+        <td width="33%"></td>
+        <td width="33%"><img src="pic/Q6.png"></td>
+        <td width="3%"></td>
     </tr>
 </table>
