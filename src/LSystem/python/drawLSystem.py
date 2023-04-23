@@ -32,7 +32,7 @@ def drawLSystem(
     screen.setworldcoordinates(-1, -1, screen.window_width() -
                                1, screen.window_height() - 1)
     # t.pencolor('white')
-    t.speed(9)
+    t.speed(0)
     t.pensize(1*scale)
     t.hideturtle()
     t.penup()
