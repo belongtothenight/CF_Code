@@ -11,3 +11,7 @@
 
 1. Plot component vs. time. (3X)
 2. Plot component vs. component. (4X)
+
+## Future
+
+1. Animate it with [example](https://joinerda.github.io/Lorenz-Butterfly/).
