@@ -1,0 +1,477 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1687197977593788, "dur":1480, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977595272, "dur":30, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1687197977595315, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1687197977595328, "dur":522, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1687197977595870, "dur":625, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977596495, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857206, "dur":179, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857385, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857395, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857404, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857410, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857413, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857416, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857417, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857422, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857423, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857427, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857428, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857450, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857451, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857456, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857457, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857460, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857461, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857466, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857467, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857470, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857471, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857476, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857477, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857480, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857493, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977857509, "dur":1342, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1687197977596163, "dur":369, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687197977596532, "dur":4018, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687197977600550, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1687197977600650, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687197977623855, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1687197977624943, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687197977624982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687197977624987, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687197977626282, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687197977626321, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687197977626326, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687197977627728, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687197977627951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687197977627957, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687197977630255, "dur":126186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687197977756446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687197977756451, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687197977757742, "dur":99474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687197977596673, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687197977596673, "dur":3875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687197977600550, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1687197977600633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687197977612030, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1687197977613564, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977613632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687197977613638, "dur":2351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977616035, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977616074, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687197977616078, "dur":775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977616886, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977616951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687197977616958, "dur":3228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977620226, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977620267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687197977620272, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977621841, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977621885, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687197977621891, "dur":9718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977631648, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977631710, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687197977631715, "dur":3673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977635420, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977635456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687197977635486, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977636815, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977636865, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687197977636871, "dur":4481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977641388, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977641426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687197977641432, "dur":52467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687197977693947, "dur":163270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977596309, "dur":232, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977596541, "dur":4006, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977600550, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1687197977600643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977611981, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1687197977612841, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977612904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977612911, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977614052, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977614087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977614112, "dur":2054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977616209, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977616268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977616273, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977617840, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977618157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977618163, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977620095, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977620138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977620143, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977621077, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977621117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977621122, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977622115, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977622155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977622160, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977623307, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977623351, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977623356, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977624717, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977624761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977624767, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977627034, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977627071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977627083, "dur":1626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977628761, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977628808, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977628813, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977630175, "dur":66181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977696362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687197977696395, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687197977697981, "dur":159222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977596504, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977596504, "dur":4036, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977600549, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1687197977600552, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977600626, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1687197977600631, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977602505, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1687197977604586, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687197977604640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977604996, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687197977606428, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1687197977606473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977606500, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1687197977607672, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1687197977607752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977607757, "dur":2137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1687197977610012, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1687197977610350, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977610699, "dur":17410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1687197977628176, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687197977628223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977628258, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687197977629679, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687197977629735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977629741, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687197977631281, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687197977631325, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977631332, "dur":3126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687197977634506, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687197977634550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977634558, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687197977636044, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687197977636109, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977636117, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687197977637024, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687197977637059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977637064, "dur":5455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687197977642580, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687197977642635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977642643, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687197977645460, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1687197977645502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977645506, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1687197977647776, "dur":1862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1687197977649641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977649646, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1687197977651297, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1687197977651328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687197977651332, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1687197977653374, "dur":203824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687197977596858, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687197977596858, "dur":3687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687197977600550, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1687197977600624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687197977602725, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1687197977604583, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1687197977604631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687197977605004, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1687197977606211, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1687197977606257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687197977606355, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1687197977607310, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687197977607425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687197977607431, "dur":34030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687197977641520, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687197977641557, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687197977641562, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687197977644972, "dur":143399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687197977788398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687197977788404, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687197977789527, "dur":67681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687197977597044, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687197977597044, "dur":3499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687197977600550, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1687197977600644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687197977624512, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1687197977625406, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687197977625489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687197977625495, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687197977626363, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687197977626482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687197977626491, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687197977627882, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687197977627942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687197977627948, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687197977629323, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687197977629371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687197977629376, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687197977631601, "dur":224598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687197977856202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687197977856209, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687197977857168, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1687197977857169, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977597218, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977597218, "dur":3324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977600549, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1687197977600631, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977602899, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1687197977604545, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1687197977604603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977604987, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1687197977606304, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1687197977606351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977606356, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1687197977607229, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977607309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977607388, "dur":5695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977613158, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977613215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977613222, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977614453, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977614496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977614501, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977616218, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977616258, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977616262, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977617867, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977617937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977617942, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977619722, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977619870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977619876, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977620847, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977620888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977620917, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977622080, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977622129, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977622134, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977623356, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977623399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977623405, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977624813, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977624855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977624861, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977626394, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977626537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977626542, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977628034, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977628080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977628086, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977629597, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977629636, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977629644, "dur":3646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977633322, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977633359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977633364, "dur":5194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977638670, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977638742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977638750, "dur":5341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977644142, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977644195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977644202, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687197977645454, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1687197977645492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977645531, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1687197977647041, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1687197977647162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977647168, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1687197977647945, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1687197977647986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977647991, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1687197977651095, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1687197977651133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977651138, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1687197977652152, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1687197977652321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687197977652326, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1687197977653119, "dur":204080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687197977597304, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687197977597304, "dur":3264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687197977600576, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1687197977600805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687197977612243, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1687197977613164, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687197977613237, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687197977613243, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687197977614539, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687197977614580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687197977614585, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687197977616215, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687197977616268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687197977616273, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687197977617271, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687197977617325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687197977617333, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687197977618498, "dur":171495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687197977789998, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687197977790008, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687197977791216, "dur":65998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687197977597370, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687197977597370, "dur":3190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687197977600564, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1687197977600665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687197977623346, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1687197977624716, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687197977624762, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687197977624768, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687197977626311, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687197977626348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687197977626354, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687197977627928, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687197977627985, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687197977627990, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687197977629432, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687197977629475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687197977629480, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687197977631466, "dur":104428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687197977735900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687197977735910, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687197977736845, "dur":120357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977597539, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977597539, "dur":3010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977600550, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1687197977600628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977603034, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1687197977604544, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1687197977604589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977605377, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1687197977606508, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977606560, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977606686, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977608417, "dur":707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals.exe" }}
+,{ "pid":12345, "tid":10, "ts":1687197977609127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977609133, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals.exe" }}
+,{ "pid":12345, "tid":10, "ts":1687197977610553, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977610600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977610763, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977612596, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977612635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977612747, "dur":3411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977616202, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977616262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977616267, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977618058, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977618100, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977618173, "dur":4503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977622763, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977622823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977622828, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977623607, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977623650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977623656, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977624865, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977624924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977624930, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977626384, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977626512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977626518, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977627782, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977627820, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977627825, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977628766, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977628806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977628812, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977629967, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977630008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977630013, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977632647, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977632697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977632703, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977634718, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977634761, "dur":266, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977635033, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977638983, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977639017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977639021, "dur":4606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977643660, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977643706, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977643711, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687197977645771, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1687197977645808, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977645812, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1687197977649313, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1687197977649347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977649372, "dur":2527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1687197977651947, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1687197977651991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687197977651997, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1687197977652969, "dur":204237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977597798, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977597798, "dur":2746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977600549, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1687197977600673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977623561, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1687197977624633, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977624673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977624678, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977625564, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977625610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977625615, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977626538, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977626582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977626587, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977628152, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977628205, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977628210, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977630013, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977630056, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977630061, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977632143, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977632187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977632193, "dur":3255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977635480, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977635515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977635520, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977636693, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977636742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977636749, "dur":2008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977638800, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977638848, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977638854, "dur":5048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977643967, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977644018, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977644024, "dur":4104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687197977648159, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1687197977648192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687197977648197, "dur":4958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1687197977653185, "dur":204016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687197977597862, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687197977597862, "dur":2689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687197977600554, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1687197977600694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687197977612662, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1687197977613594, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977613645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687197977613652, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977616014, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977616049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687197977616055, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977617788, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977617840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687197977617862, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977619804, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977619843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687197977619850, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977620956, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977620999, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687197977621004, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977623054, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977623099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687197977623104, "dur":5821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977628996, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977629037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687197977629042, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977630304, "dur":113851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977744159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687197977744165, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/win_intel_x64_v0.1/Chaos and Fractals_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687197977745303, "dur":111893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687197977860081, "dur":2067, "ph":"X", "name": "ProfilerWriteOutput" }
+,
