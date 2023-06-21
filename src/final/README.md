@@ -9,6 +9,7 @@ There are three modes of this application, "Lorentz Butterfly", "LSystem", and "
 On the top-left corner of the screen, the "select mode" section can be accessed to change the current execution mode.
 Other input fields are provided for any changes to the parameters.
 "Reset" buttons are available for both modes to apply new parameters and execute them.
+The user can move around in the virtual space to see these shapes from different angles.
 
 | Key          | Function                                               |
 | ------------ | ------------------------------------------------------ |
