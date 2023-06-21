@@ -28,6 +28,7 @@ Other input fields are provided for any changes to the parameters.
 ![](multimedia/Interface_1.png)
 
 In this mode, it's going to dynamically display how the Lorentz system progresses as time increases.
+The user can increase the value of "Trace Time" to make the lines stay longer on the screen.
 
 Reference: <https://joinerda.github.io/Lorenz-Butterfly/>
 
