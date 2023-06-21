@@ -2,8 +2,41 @@
 
 Application to draw multiple graphs of this class.
 
-## Keyboard Control
+There are three modes of this application, "Lorentz Butterfly", "LSystem", and "Bifurcation Diagram". The first and second modes are finished, but the third is still under work.
+
+## Control Tutorial
+
+On the top-left corner of the screen, the "select mode" section can be accessed to change the current execution mode.
+Other input fields are provided for any changes to the parameters.
+"Reset" buttons are available for both modes to apply new parameters and execute them.
+
+| Key          | Function                                               |
+| ------------ | ------------------------------------------------------ |
+| ESC          | Quit application.                                      |
+| R            | Hide/Show cursor, Lock/Unlock camera following cursor. |
+| W            | Move front.                                            |
+| S            | Move back.                                             |
+| A            | Move left.                                             |
+| D            | Move right.                                            |
+| SPACE        | Move up.                                               |
+| LSHIFT       | Move down.                                             |
+| SCROLL WHEEL | Increase/Decrease moving speed.                        |
+
 
 ## Lorentz Butterfly
 
+![](multimedia/Interface_1.png)
+
+In this mode, it's going to dynamically display how the Lorentz system progresses as time increases.
+
 Reference: <https://joinerda.github.io/Lorenz-Butterfly/>
+
+## LSystem
+
+![](multimedia/Interface_2.png)
+
+In this mode, it's going to display the shape created by LSystem after the user clicked "Reset".
+
+## Bifurcation Diagram
+
+Under work.
