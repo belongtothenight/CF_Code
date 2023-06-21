@@ -103,8 +103,10 @@ public class LogicManager : MonoBehaviour
 
     void DropdownValueChanged(TMP_Dropdown change)
     {
-        // 1. Spawn UI elements for the selected mode
-        // 2. Spawn drawing function
+        // Common logic
+        mode_B_cube.GetComponent<mode_B_Tracer>().ClearLines();
+        mode_B_cube.GetComponent<mode_B_Tracer>().ResetVariable();
+        // Mode specific logic
         if (change.value == 0)
         {
             ModeALogic();
