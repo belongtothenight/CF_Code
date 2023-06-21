@@ -10,5 +10,5 @@ Chaos and Fractal
 | 2.  | [LSystem](https://github.com/belongtothenight/CF_Code/tree/main/src/LSystem)                       | Use L-System to draw fractals.                     |
 | 3.  | [QuadraticMap](https://github.com/belongtothenight/CF_Code/tree/main/src/QuadraticMap)             | Similar to butterflyEffect.                        |
 | 4.  | [lorenzEquation](https://github.com/belongtothenight/CF_Code/tree/main/src/lorenzEquation)         | Draw components of lorenz equation.                |
-| 5.  | [bifurcationDiagram](https://github.com/belongtothenight/CF_Code/tree/main/src/bifurcationDiagram) | Application to draw multiple graphs of this class. |
+| 5.  | [bifurcationDiagram](https://github.com/belongtothenight/CF_Code/tree/main/src/bifurcationDiagram) | Draw bifurcation diagram.                          |
 | 6.  | [Final Project](https://github.com/belongtothenight/CF_Code/tree/main/src/final)                   | Application to draw multiple graphs of this class. |
