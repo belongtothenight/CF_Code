@@ -4,6 +4,8 @@ Application to draw multiple graphs of this class.
 
 There are three modes of this application, "Lorentz Butterfly", "LSystem", and "Bifurcation Diagram". The first and second modes are finished, but the third is still under work.
 
+If you're interested in codes used in this application, they are available in the folder "Assets" above as ".cs" files.
+
 ## Control Tutorial
 
 On the top-left corner of the screen, the "select mode" section can be accessed to change the current execution mode.
