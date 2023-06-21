@@ -21,6 +21,7 @@ public class camera : MonoBehaviour
         // cam.backgroundColor = black;
         cam.orthographicSize = 1f;
         // cam.rect = new Rect(0, 0, 1f, 1f);
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
@@ -30,6 +31,7 @@ public class camera : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             isRotating = !isRotating;
+            Cursor.visible = !Cursor.visible;
         }
         // * Rotation
         if (isRotating)

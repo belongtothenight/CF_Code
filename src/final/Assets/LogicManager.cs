@@ -13,6 +13,7 @@ public class LogicManager : MonoBehaviour
 
     // ! Lorenz Butterfly
     public bool mode_A_toggle = false;
+    public GameObject mode_A_sphere;
     public TextMeshProUGUI mode_A_text_initX;
     public TextMeshProUGUI mode_A_text_initY;
     public TextMeshProUGUI mode_A_text_initZ;
@@ -21,13 +22,13 @@ public class LogicManager : MonoBehaviour
     public TMP_InputField mode_A_inputField_initY;
     public TMP_InputField mode_A_inputField_initZ;
     public TMP_InputField mode_A_inputField_traceTime;
-    public GameObject mode_A_sphere;
-    public Tracer mode_A_sphere_tracer;
     public Button mode_A_button_reset;
 
     // ! LSystem
-    public TextMeshProUGUI mode_B_text_task;
+    public bool mode_B_toggle = false;
+    public GameObject mode_B_cube;
     public TextMeshProUGUI mode_B_text_lineWidth;
+    public TextMeshProUGUI mode_B_text_level;
     public TextMeshProUGUI mode_B_text_w;
     public TextMeshProUGUI mode_B_text_newf;
     public TextMeshProUGUI mode_B_text_newb;
@@ -38,18 +39,23 @@ public class LogicManager : MonoBehaviour
     public TextMeshProUGUI mode_B_text_segmentLength;
     public TextMeshProUGUI mode_B_text_currentIndex;
     public TextMeshProUGUI mode_B_text_wFull;
-    public TMP_InputField mode_B_inputField_task;
     public TMP_InputField mode_B_inputField_lineWidth;
+    public TMP_InputField mode_B_inputField_level;
     public TMP_InputField mode_B_inputField_w;
     public TMP_InputField mode_B_inputField_newf;
     public TMP_InputField mode_B_inputField_newb;
     public TMP_InputField mode_B_inputField_angleInt;
     public TMP_InputField mode_B_inputField_angleInc;
     public TMP_InputField mode_B_inputField_scaler;
+    // public TextMeshProUGUI mode_B_text_scaleFactor_result;
+    // public TextMeshProUGUI mode_B_text_segmentLength_result;
+    // public TextMeshProUGUI mode_B_text_currentIndex_result;
+    // public TextMeshProUGUI mode_B_text_wFull_result;
     public TMP_InputField mode_B_inputField_scaleFactor;
     public TMP_InputField mode_B_inputField_segmentLength;
     public TMP_InputField mode_B_inputField_currentIndex;
     public TMP_InputField mode_B_inputField_wFull;
+    public Button mode_B_button_reset;
 
     // ! Bifurcation Diagram
 
@@ -63,11 +69,30 @@ public class LogicManager : MonoBehaviour
         ModeALogic();
         mode_selector.onValueChanged.AddListener(delegate { DropdownValueChanged(mode_selector); });
         // ! Lorenz Butterfly
-        mode_A_button_reset.onClick.AddListener(delegate { ModeAReset(); });
         mode_A_inputField_initX.text = "0.01";
         mode_A_inputField_initY.text = "0.01";
         mode_A_inputField_initZ.text = "0.01";
         mode_A_inputField_traceTime.text = "10";
+        mode_A_button_reset.onClick.AddListener(delegate { ModeAReset(); });
+        // ! LSystem
+        mode_B_inputField_lineWidth.text = "1";
+        mode_B_inputField_level.text = "2";
+        mode_B_inputField_w.text = "F+F+F+F";
+        mode_B_inputField_newf.text = "F+b-F-FFF+F+b-F";
+        mode_B_inputField_newb.text = "bbb";
+        mode_B_inputField_angleInt.text = "0";
+        mode_B_inputField_angleInc.text = "90";
+        mode_B_inputField_scaler.text = "100";
+        mode_B_inputField_scaleFactor.text = "0";
+        mode_B_inputField_segmentLength.text = "1";
+        mode_B_inputField_currentIndex.text = "0";
+        mode_B_inputField_wFull.text = "N/A";
+        mode_B_inputField_scaleFactor.readOnly = true;
+        mode_B_inputField_segmentLength.readOnly = true;
+        mode_B_inputField_currentIndex.readOnly = true;
+        mode_B_inputField_wFull.readOnly = true;
+        mode_B_button_reset.onClick.AddListener(delegate { ModeBReset(); });
+        // ! Bifurcation Diagram
     }
 
     // Update is called once per frame
@@ -99,8 +124,10 @@ public class LogicManager : MonoBehaviour
         // ! Lorenz Butterfly
         // Debug.Log("Lorenz Butterfly");
         // * Disable UI elements for other modes
-        mode_B_text_task.gameObject.SetActive(false);
+        mode_B_toggle = false;
+        mode_B_cube.gameObject.SetActive(false);
         mode_B_text_lineWidth.gameObject.SetActive(false);
+        mode_B_text_level.gameObject.SetActive(false);
         mode_B_text_w.gameObject.SetActive(false);
         mode_B_text_newf.gameObject.SetActive(false);
         mode_B_text_newb.gameObject.SetActive(false);
@@ -111,8 +138,8 @@ public class LogicManager : MonoBehaviour
         mode_B_text_segmentLength.gameObject.SetActive(false);
         mode_B_text_currentIndex.gameObject.SetActive(false);
         mode_B_text_wFull.gameObject.SetActive(false);
-        mode_B_inputField_task.gameObject.SetActive(false);
         mode_B_inputField_lineWidth.gameObject.SetActive(false);
+        mode_B_inputField_level.gameObject.SetActive(false);
         mode_B_inputField_w.gameObject.SetActive(false);
         mode_B_inputField_newf.gameObject.SetActive(false);
         mode_B_inputField_newb.gameObject.SetActive(false);
@@ -123,7 +150,10 @@ public class LogicManager : MonoBehaviour
         mode_B_inputField_segmentLength.gameObject.SetActive(false);
         mode_B_inputField_currentIndex.gameObject.SetActive(false);
         mode_B_inputField_wFull.gameObject.SetActive(false);
+        mode_B_button_reset.gameObject.SetActive(false);
         // * Enable UI elements for this mode
+        mode_A_toggle = true;
+        mode_A_sphere.gameObject.SetActive(true);
         mode_A_text_initX.gameObject.SetActive(true);
         mode_A_text_initY.gameObject.SetActive(true);
         mode_A_text_initZ.gameObject.SetActive(true);
@@ -132,11 +162,9 @@ public class LogicManager : MonoBehaviour
         mode_A_inputField_initY.gameObject.SetActive(true);
         mode_A_inputField_initZ.gameObject.SetActive(true);
         mode_A_inputField_traceTime.gameObject.SetActive(true);
-        mode_A_sphere.gameObject.SetActive(true);
-        mode_A_toggle = true;
         mode_A_button_reset.gameObject.SetActive(true);
-        // * Run drawing function
-        mode_A_sphere.GetComponent<Tracer>().update = mode_A_toggle;
+        // * Update component
+        mode_A_sphere.GetComponent<mode_A_Tracer>().update = mode_A_toggle;
     }
 
     void ModeBLogic()
@@ -144,6 +172,8 @@ public class LogicManager : MonoBehaviour
         // ! LSystem
         // Debug.Log("LSystem");
         // * Disable UI elements for other modes
+        mode_A_toggle = false;
+        mode_A_sphere.gameObject.SetActive(false);
         mode_A_text_initX.gameObject.SetActive(false);
         mode_A_text_initY.gameObject.SetActive(false);
         mode_A_text_initZ.gameObject.SetActive(false);
@@ -152,12 +182,12 @@ public class LogicManager : MonoBehaviour
         mode_A_inputField_initY.gameObject.SetActive(false);
         mode_A_inputField_initZ.gameObject.SetActive(false);
         mode_A_inputField_traceTime.gameObject.SetActive(false);
-        mode_A_sphere.gameObject.SetActive(false);
-        mode_A_toggle = false;
         mode_A_button_reset.gameObject.SetActive(false);
         // * Enable UI elements for this mode
-        mode_B_text_task.gameObject.SetActive(true);
+        mode_B_toggle = true;
+        mode_B_cube.gameObject.SetActive(true);
         mode_B_text_lineWidth.gameObject.SetActive(true);
+        mode_B_text_level.gameObject.SetActive(true);
         mode_B_text_w.gameObject.SetActive(true);
         mode_B_text_newf.gameObject.SetActive(true);
         mode_B_text_newb.gameObject.SetActive(true);
@@ -168,9 +198,8 @@ public class LogicManager : MonoBehaviour
         mode_B_text_segmentLength.gameObject.SetActive(true);
         mode_B_text_currentIndex.gameObject.SetActive(true);
         mode_B_text_wFull.gameObject.SetActive(true);
-        mode_B_inputField_task.gameObject.SetActive(true);
-        mode_B_inputField_task.gameObject.SetActive(true);
         mode_B_inputField_lineWidth.gameObject.SetActive(true);
+        mode_B_inputField_level.gameObject.SetActive(true);
         mode_B_inputField_w.gameObject.SetActive(true);
         mode_B_inputField_newf.gameObject.SetActive(true);
         mode_B_inputField_newb.gameObject.SetActive(true);
@@ -181,8 +210,9 @@ public class LogicManager : MonoBehaviour
         mode_B_inputField_segmentLength.gameObject.SetActive(true);
         mode_B_inputField_currentIndex.gameObject.SetActive(true);
         mode_B_inputField_wFull.gameObject.SetActive(true);
-        // * Run drawing function
-        DrawLSystem();
+        mode_B_button_reset.gameObject.SetActive(true);
+        // * Update component
+        mode_B_cube.GetComponent<mode_B_Tracer>().update = mode_B_toggle;
     }
 
     void ModeCLogic()
@@ -190,6 +220,8 @@ public class LogicManager : MonoBehaviour
         // ! Bifurcation Diagram
         // Debug.Log("Bifurcation Diagram");
         // * Disable UI elements for other modes
+        mode_A_toggle = false;
+        mode_A_sphere.gameObject.SetActive(false);
         mode_A_text_initX.gameObject.SetActive(false);
         mode_A_text_initY.gameObject.SetActive(false);
         mode_A_text_initZ.gameObject.SetActive(false);
@@ -198,11 +230,11 @@ public class LogicManager : MonoBehaviour
         mode_A_inputField_initY.gameObject.SetActive(false);
         mode_A_inputField_initZ.gameObject.SetActive(false);
         mode_A_inputField_traceTime.gameObject.SetActive(false);
-        mode_A_sphere.gameObject.SetActive(false);
-        mode_A_toggle = false;
         mode_A_button_reset.gameObject.SetActive(false);
-        mode_B_text_task.gameObject.SetActive(false);
+        mode_B_toggle = false;
+        mode_B_cube.gameObject.SetActive(false);
         mode_B_text_lineWidth.gameObject.SetActive(false);
+        mode_B_text_level.gameObject.SetActive(false);
         mode_B_text_w.gameObject.SetActive(false);
         mode_B_text_newf.gameObject.SetActive(false);
         mode_B_text_newb.gameObject.SetActive(false);
@@ -213,9 +245,8 @@ public class LogicManager : MonoBehaviour
         mode_B_text_segmentLength.gameObject.SetActive(false);
         mode_B_text_currentIndex.gameObject.SetActive(false);
         mode_B_text_wFull.gameObject.SetActive(false);
-        mode_B_inputField_task.gameObject.SetActive(false);
-        mode_B_inputField_task.gameObject.SetActive(false);
         mode_B_inputField_lineWidth.gameObject.SetActive(false);
+        mode_B_inputField_level.gameObject.SetActive(false);
         mode_B_inputField_w.gameObject.SetActive(false);
         mode_B_inputField_newf.gameObject.SetActive(false);
         mode_B_inputField_newb.gameObject.SetActive(false);
@@ -226,9 +257,9 @@ public class LogicManager : MonoBehaviour
         mode_B_inputField_segmentLength.gameObject.SetActive(false);
         mode_B_inputField_currentIndex.gameObject.SetActive(false);
         mode_B_inputField_wFull.gameObject.SetActive(false);
+        mode_B_button_reset.gameObject.SetActive(false);
         // * Enable UI elements for this mode
-        // * Run drawing function
-        DrawBifurcationDiagram();
+        // * Update component
     }
 
     void ModeAReset()
@@ -238,19 +269,28 @@ public class LogicManager : MonoBehaviour
         var x = double.Parse(mode_A_inputField_initX.text);
         var y = double.Parse(mode_A_inputField_initY.text);
         var z = double.Parse(mode_A_inputField_initZ.text);
-        // mode_A_sphere.GetComponent<Tracer>().x = new double[3] { 0.01, 0, 0 };
-        mode_A_sphere.GetComponent<Tracer>().x = new double[3] { x, y, z };
+        // mode_A_sphere.GetComponent<mode_A_Tracer>().x = new double[3] { 0.01, 0, 0 };
+        mode_A_sphere.GetComponent<mode_A_Tracer>().x = new double[3] { x, y, z };
         mode_A_sphere.GetComponent<TrailRenderer>().time = float.Parse(mode_A_inputField_traceTime.text);
         // mode_A_sphere.GetComponent<TrailRenderer>().emitting = true;
     }
 
-    void DrawLSystem()
+    void ModeBReset()
     {
-
-    }
-
-    void DrawBifurcationDiagram()
-    {
-
+        mode_B_cube.GetComponent<mode_B_Tracer>().ClearLines();
+        mode_B_cube.GetComponent<mode_B_Tracer>().ResetVariable();
+        mode_B_cube.GetComponent<mode_B_Tracer>().lineWidth = float.Parse(mode_B_inputField_lineWidth.text);
+        mode_B_cube.GetComponent<mode_B_Tracer>().level = int.Parse(mode_B_inputField_level.text);
+        mode_B_cube.GetComponent<mode_B_Tracer>().word = mode_B_inputField_w.text;
+        mode_B_cube.GetComponent<mode_B_Tracer>().newf = mode_B_inputField_newf.text;
+        mode_B_cube.GetComponent<mode_B_Tracer>().newb = mode_B_inputField_newb.text;
+        mode_B_cube.GetComponent<mode_B_Tracer>().angleInt = float.Parse(mode_B_inputField_angleInt.text);
+        mode_B_cube.GetComponent<mode_B_Tracer>().angleInc = float.Parse(mode_B_inputField_angleInc.text);
+        mode_B_cube.GetComponent<mode_B_Tracer>().scaler = float.Parse(mode_B_inputField_scaler.text);
+        mode_B_cube.GetComponent<mode_B_Tracer>().RunStart();
+        mode_B_inputField_scaleFactor.text = mode_B_cube.GetComponent<mode_B_Tracer>().scaleFactor.ToString();
+        mode_B_inputField_segmentLength.text = mode_B_cube.GetComponent<mode_B_Tracer>().segmentLength.ToString();
+        mode_B_inputField_currentIndex.text = mode_B_cube.GetComponent<mode_B_Tracer>().currentPositionIndex.ToString();
+        mode_B_inputField_wFull.text = mode_B_cube.GetComponent<mode_B_Tracer>().wordFull;
     }
 }
