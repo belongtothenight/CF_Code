@@ -9,7 +9,7 @@ result = []
 s = 0.05
 maxC = 0.25
 minC = -2
-steps = 1e4
+steps = 1e2
 
 # ! ----------------
 inc = -(minC - maxC) / steps

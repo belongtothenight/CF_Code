@@ -47,10 +47,6 @@ public class LogicManager : MonoBehaviour
     public TMP_InputField mode_B_inputField_angleInt;
     public TMP_InputField mode_B_inputField_angleInc;
     public TMP_InputField mode_B_inputField_scaler;
-    // public TextMeshProUGUI mode_B_text_scaleFactor_result;
-    // public TextMeshProUGUI mode_B_text_segmentLength_result;
-    // public TextMeshProUGUI mode_B_text_currentIndex_result;
-    // public TextMeshProUGUI mode_B_text_wFull_result;
     public TMP_InputField mode_B_inputField_scaleFactor;
     public TMP_InputField mode_B_inputField_segmentLength;
     public TMP_InputField mode_B_inputField_currentIndex;
@@ -58,6 +54,23 @@ public class LogicManager : MonoBehaviour
     public Button mode_B_button_reset;
 
     // ! Bifurcation Diagram
+    public bool mode_C_toggle = false;
+    public GameObject mode_C_ParticleSystem;
+    public TextMeshProUGUI mode_C_text_x0;
+    public TextMeshProUGUI mode_C_text_minN;
+    public TextMeshProUGUI mode_C_text_maxN;
+    public TextMeshProUGUI mode_C_text_minC;
+    public TextMeshProUGUI mode_C_text_maxC;
+    public TextMeshProUGUI mode_C_text_steps;
+    public TextMeshProUGUI mode_C_text_dotSize;
+    public TMP_InputField mode_C_inputField_x0;
+    public TMP_InputField mode_C_inputField_minN;
+    public TMP_InputField mode_C_inputField_maxN;
+    public TMP_InputField mode_C_inputField_minC;
+    public TMP_InputField mode_C_inputField_maxC;
+    public TMP_InputField mode_C_inputField_steps;
+    public TMP_InputField mode_C_inputField_dotSize;
+    public Button mode_C_button_reset;
 
     // Start is called before the first frame update
     void Start()
@@ -93,6 +106,14 @@ public class LogicManager : MonoBehaviour
         mode_B_inputField_wFull.readOnly = true;
         mode_B_button_reset.onClick.AddListener(delegate { ModeBReset(); });
         // ! Bifurcation Diagram
+        mode_C_inputField_x0.text = "0";
+        mode_C_inputField_minN.text = "100";
+        mode_C_inputField_maxN.text = "250";
+        mode_C_inputField_minC.text = "-2";
+        mode_C_inputField_maxC.text = "0.25";
+        mode_C_inputField_steps.text = "100";
+        mode_C_inputField_dotSize.text = "0.1";
+        mode_C_button_reset.onClick.AddListener(delegate { ModeCReset(); });
     }
 
     // Update is called once per frame
@@ -153,6 +174,21 @@ public class LogicManager : MonoBehaviour
         mode_B_inputField_currentIndex.gameObject.SetActive(false);
         mode_B_inputField_wFull.gameObject.SetActive(false);
         mode_B_button_reset.gameObject.SetActive(false);
+        mode_C_toggle = false;
+        mode_C_text_x0.gameObject.SetActive(false);
+        mode_C_text_minN.gameObject.SetActive(false);
+        mode_C_text_maxN.gameObject.SetActive(false);
+        mode_C_text_minC.gameObject.SetActive(false);
+        mode_C_text_maxC.gameObject.SetActive(false);
+        mode_C_text_steps.gameObject.SetActive(false);
+        mode_C_text_dotSize.gameObject.SetActive(false);
+        mode_C_inputField_x0.gameObject.SetActive(false);
+        mode_C_inputField_minN.gameObject.SetActive(false);
+        mode_C_inputField_maxN.gameObject.SetActive(false);
+        mode_C_inputField_minC.gameObject.SetActive(false);
+        mode_C_inputField_maxC.gameObject.SetActive(false);
+        mode_C_inputField_steps.gameObject.SetActive(false);
+        mode_C_inputField_dotSize.gameObject.SetActive(false);
         // * Enable UI elements for this mode
         mode_A_toggle = true;
         mode_A_sphere.gameObject.SetActive(true);
@@ -185,6 +221,21 @@ public class LogicManager : MonoBehaviour
         mode_A_inputField_initZ.gameObject.SetActive(false);
         mode_A_inputField_traceTime.gameObject.SetActive(false);
         mode_A_button_reset.gameObject.SetActive(false);
+        mode_C_toggle = false;
+        mode_C_text_x0.gameObject.SetActive(false);
+        mode_C_text_minN.gameObject.SetActive(false);
+        mode_C_text_maxN.gameObject.SetActive(false);
+        mode_C_text_minC.gameObject.SetActive(false);
+        mode_C_text_maxC.gameObject.SetActive(false);
+        mode_C_text_steps.gameObject.SetActive(false);
+        mode_C_text_dotSize.gameObject.SetActive(false);
+        mode_C_inputField_x0.gameObject.SetActive(false);
+        mode_C_inputField_minN.gameObject.SetActive(false);
+        mode_C_inputField_maxN.gameObject.SetActive(false);
+        mode_C_inputField_minC.gameObject.SetActive(false);
+        mode_C_inputField_maxC.gameObject.SetActive(false);
+        mode_C_inputField_steps.gameObject.SetActive(false);
+        mode_C_inputField_dotSize.gameObject.SetActive(false);
         // * Enable UI elements for this mode
         mode_B_toggle = true;
         mode_B_cube.gameObject.SetActive(true);
@@ -261,6 +312,21 @@ public class LogicManager : MonoBehaviour
         mode_B_inputField_wFull.gameObject.SetActive(false);
         mode_B_button_reset.gameObject.SetActive(false);
         // * Enable UI elements for this mode
+        mode_C_toggle = true;
+        mode_C_text_x0.gameObject.SetActive(true);
+        mode_C_text_minN.gameObject.SetActive(true);
+        mode_C_text_maxN.gameObject.SetActive(true);
+        mode_C_text_minC.gameObject.SetActive(true);
+        mode_C_text_maxC.gameObject.SetActive(true);
+        mode_C_text_steps.gameObject.SetActive(true);
+        mode_C_text_dotSize.gameObject.SetActive(true);
+        mode_C_inputField_x0.gameObject.SetActive(true);
+        mode_C_inputField_minN.gameObject.SetActive(true);
+        mode_C_inputField_maxN.gameObject.SetActive(true);
+        mode_C_inputField_minC.gameObject.SetActive(true);
+        mode_C_inputField_maxC.gameObject.SetActive(true);
+        mode_C_inputField_steps.gameObject.SetActive(true);
+        mode_C_inputField_dotSize.gameObject.SetActive(true);
         // * Update component
     }
 
@@ -294,5 +360,18 @@ public class LogicManager : MonoBehaviour
         mode_B_inputField_segmentLength.text = mode_B_cube.GetComponent<mode_B_Tracer>().segmentLength.ToString();
         mode_B_inputField_currentIndex.text = mode_B_cube.GetComponent<mode_B_Tracer>().currentPositionIndex.ToString();
         mode_B_inputField_wFull.text = mode_B_cube.GetComponent<mode_B_Tracer>().wordFull;
+    }
+
+    void ModeCReset()
+    {
+        mode_C_ParticleSystem.GetComponent<mode_C_ParticleSystem>().ResetVariable();
+        mode_C_ParticleSystem.GetComponent<mode_C_ParticleSystem>().x0 = float.Parse(mode_C_inputField_x0.text);
+        mode_C_ParticleSystem.GetComponent<mode_C_ParticleSystem>().minN = int.Parse(mode_C_inputField_minN.text);
+        mode_C_ParticleSystem.GetComponent<mode_C_ParticleSystem>().maxN = int.Parse(mode_C_inputField_maxN.text);
+        mode_C_ParticleSystem.GetComponent<mode_C_ParticleSystem>().minC = float.Parse(mode_C_inputField_minC.text);
+        mode_C_ParticleSystem.GetComponent<mode_C_ParticleSystem>().maxC = float.Parse(mode_C_inputField_maxC.text);
+        mode_C_ParticleSystem.GetComponent<mode_C_ParticleSystem>().steps = int.Parse(mode_C_inputField_steps.text);
+        mode_C_ParticleSystem.GetComponent<mode_C_ParticleSystem>().dotSize = float.Parse(mode_C_inputField_dotSize.text);
+        mode_C_ParticleSystem.GetComponent<mode_C_ParticleSystem>().RunStart();
     }
 }

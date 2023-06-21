@@ -18,7 +18,8 @@ public class mode_B_Tracer : MonoBehaviour
     public float segmentLength = 1.0f;
     public int currentPositionIndex = 0;
     public string wordFull = "";
-    // * Variables for L-System
+
+    // * Variable for L-System
     private Vector3 topMost;
     private Vector3 bottomMost;
     private Vector3 leftMost;
