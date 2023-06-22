@@ -45,4 +45,4 @@ In this mode, it's going to display the shape created by LSystem after the user 
 
 ![](multimedia/Interface_3.png)
 
-In this mode, it's going to display the shape of bifurcation diagram after the user clicked "Reset".
+In this mode, it's going to display the shape of bifurcation diagrams after the user clicked "Reset".
