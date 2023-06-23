@@ -8,6 +8,8 @@ If you're interested in codes used in this application, they are available in th
 
 ## Version Details
 
+If Windows is warning about these being unrecognized apps, click "More info", and "Run anyway" to start the installation process.
+
 | Release Version | Download Link                                                                                                                                               | Detail                   | Release Date |
 | :-------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | :----------: |
 | v0.1.0          | [![v0.1.0](https://img.shields.io/github/downloads/belongtothenight/CF_Code/v0.1.0/total)](https://github.com/belongtothenight/CF_Code/releases/tag/v0.1.0) | + Lorentz Butterfly      | 20230620     |
