@@ -6,6 +6,15 @@ There are three modes of this application, "Lorentz Butterfly", "LSystem", and "
 
 If you're interested in codes used in this application, they are available in the folder "Assets" above as ".cs" files.
 
+## Version Details
+
+| Release Version | Download Link                                                                                                                                               | Detail                   | Release Date |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------ |
+| v0.1.0          | [![v0.1.0](https://img.shields.io/github/downloads/belongtothenight/CF_Code/v0.1.0/total)](https://github.com/belongtothenight/CF_Code/releases/tag/v0.1.0) | + Lorentz Butterfly      | 20230620     |
+| v0.2.0          | [![v0.2.0](https://img.shields.io/github/downloads/belongtothenight/CF_Code/v0.2.0/total)](https://github.com/belongtothenight/CF_Code/releases/tag/v0.2.0) | + LSystem                | 20230621     |
+| v0.2.1          | [![v0.2.1](https://img.shields.io/github/downloads/belongtothenight/CF_Code/v0.2.1/total)](https://github.com/belongtothenight/CF_Code/releases/tag/v0.2.1) | * Fix gameObject removal | 20230621     |
+| v0.3.0          | [![v0.3.0](https://img.shields.io/github/downloads/belongtothenight/CF_Code/v0.3.0/total)](https://github.com/belongtothenight/CF_Code/releases/tag/v0.3.0) | + Bifurcation Diagram    | 20230622     |
+
 ## Control Tutorial
 
 On the top-left corner of the screen, the "select mode" section can be accessed to change the current execution mode.
