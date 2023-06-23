@@ -9,7 +9,7 @@ If you're interested in codes used in this application, they are available in th
 ## Version Details
 
 | Release Version | Download Link                                                                                                                                               | Detail                   | Release Date |
-| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------ |
+| :-------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | :----------: |
 | v0.1.0          | [![v0.1.0](https://img.shields.io/github/downloads/belongtothenight/CF_Code/v0.1.0/total)](https://github.com/belongtothenight/CF_Code/releases/tag/v0.1.0) | + Lorentz Butterfly      | 20230620     |
 | v0.2.0          | [![v0.2.0](https://img.shields.io/github/downloads/belongtothenight/CF_Code/v0.2.0/total)](https://github.com/belongtothenight/CF_Code/releases/tag/v0.2.0) | + LSystem                | 20230621     |
 | v0.2.1          | [![v0.2.1](https://img.shields.io/github/downloads/belongtothenight/CF_Code/v0.2.1/total)](https://github.com/belongtothenight/CF_Code/releases/tag/v0.2.1) | * Fix gameObject removal | 20230621     |
@@ -23,7 +23,7 @@ Other input fields are provided for any changes to the parameters.
 The user can move around in the virtual space to see these shapes from different angles.
 
 | Key          | Function                                               |
-| ------------ | ------------------------------------------------------ |
+| :----------: | ------------------------------------------------------ |
 | ESC          | Quit application.                                      |
 | R            | Hide/Show cursor, Lock/Unlock camera following cursor. |
 | W            | Move front.                                            |
