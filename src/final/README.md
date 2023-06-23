@@ -8,6 +8,8 @@ If you're interested in the codes used in this application, they are available i
 
 ## Version Details
 
+Please click on the download link below to go to its release page to download them.
+
 If Windows is warning about these being unrecognized apps, click "More info", and "Run anyway" to start the installation process.
 
 The releases below are only available for the Windows platform. If you are interested in this application on any other platforms, please contact me to build it.
