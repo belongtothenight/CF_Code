@@ -4,11 +4,13 @@ Application to draw multiple graphs of this class.
 
 There are three modes of this application, "Lorentz Butterfly", "LSystem", and "Bifurcation Diagram". The first and second modes are finished, but the third is still under work.
 
-If you're interested in codes used in this application, they are available in the folder "code" above as ".cs" files.
+If you're interested in the codes used in this application, they are available in the folder "code" above as ".cs" files.
 
 ## Version Details
 
 If Windows is warning about these being unrecognized apps, click "More info", and "Run anyway" to start the installation process.
+
+The releases below are only available for Windows platform. If you are interested in this application on any other platforms, please contact me to build it.
 
 | Release Version | Download Link                                                                                                                                               | Detail                   | Release Date |                                                            Unity Package                                                             |
 | :-------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | :----------: | :----------------------------------------------------------------------------------------------------------------------------------: |
