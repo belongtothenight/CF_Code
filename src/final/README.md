@@ -62,3 +62,10 @@ In this mode, it's going to display the shape created by LSystem after the user 
 ![](multimedia/Interface_3.png)
 
 In this mode, it's going to display the shape of bifurcation diagrams after the user clicked "Reset".
+
+## Butterfly Effect
+
+![](multimedia/Interface_4.png)
+
+
+In this mode, it's going to display two lines A and B with different initial values set after the user clicked "Reset".
