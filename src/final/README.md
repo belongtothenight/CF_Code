@@ -2,9 +2,7 @@
 
 Application to draw multiple graphs of this class.
 
-There are three modes of this application, "Lorentz Butterfly", "LSystem", "Bifurcation Diagram", and "Butterfly Effect". The first and second modes are finished, but the third is still under work.
-
-If you're interested in the codes used in this application, they are available in the folder "code" above as ".cs" files.
+There are three modes of this application, "Lorentz Butterfly", "LSystem", "Bifurcation Diagram", and "Butterfly Effect".
 
 ## Version Details
 
